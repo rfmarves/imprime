@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="styles/styles.css">
+    <title>imprime.ninja</title>
+</head>
+<body>
+    <header>
+        <div class="nav-logo">
+            <a href="index.html" id="logo_link"><img src="images/nav_logo.jpg" alt="logo de imprime.ninja">
+            </a>
+        </div>
+        <nav class="nav-bar">
+            <a class="nav-link" href="index.html">Inicio</a>
+            <a class="nav-link" href="quienes-somos.html">¿Quiénes somos?</a>
+            <a class="nav-link" href="contactanos.html">Contáctanos</a>
+        </nav>    
+    </header>
+    <main class="main-content">
+        <h1 class="page-header">Contáctanos</h1>
+        <div class="contacto-main-block">
+            <div class="contacto-left">
+                <p>
+                    Llena el formulario de contacto con tu duda o solicitud y prontamente te responderemos.
+                </p>
+            </div>
+            <div class="contacto-form-container">
+                <form id="contact_form" action="/my-handling-form-page" method="post">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="user_name">
+                    <label for="mail">Correo electrónico:</label>
+                    <input type="email" id="mail" name="user_email">
+                    <label for="msg">Mensaje:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                    <div class="button_container"><button type="submit" class="send">Enviar</button></div>
+                </form>
+                    </div>
+        </div>
+        <div class="contacto-messenger">
+            <img src="images/messenger.jpg" alt="logo messenger">
+            <p>
+                También nos encuentras en Facebook y puedes contactarnos por Messenger.
+            </p>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>© 2023 imprime.ninja</p>
+        <p><a class="footer-link" href="site-plan.html">Site Plan</a></p>
+    </footer>
+</body>
+</html>
