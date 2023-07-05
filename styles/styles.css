@@ -42,6 +42,9 @@ header {
     display: grid;
     grid-template-columns: 120px auto;
     margin-bottom: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 nav {
@@ -90,6 +93,23 @@ main {
     font-family: var(--heading-font);
 }
 
+/* The sticky class is added to the navbar with JS when it reaches its scroll position
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+/* Page content */
+/* .content {
+    padding: 16px;
+  } */
+
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+/* .sticky + .content {
+    padding-top: 60px;
+  } */
+   */
 /* homepage styles */
 
 .intro {
